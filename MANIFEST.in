@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pine_pos *.css
+recursive-include pine_pos *.csv
+recursive-include pine_pos *.html
+recursive-include pine_pos *.ico
+recursive-include pine_pos *.js
+recursive-include pine_pos *.json
+recursive-include pine_pos *.md
+recursive-include pine_pos *.png
+recursive-include pine_pos *.py
+recursive-include pine_pos *.svg
+recursive-include pine_pos *.txt
+recursive-exclude pine_pos *.pyc
